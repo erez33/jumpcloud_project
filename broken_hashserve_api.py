@@ -1,7 +1,6 @@
 import requests as r
 from requests import exceptions
 
-import random
 
 base_url = 'http://127.0.0.1:8088/'
 
@@ -39,11 +38,4 @@ class BrokenHashServeEndpoints:
 
 
 
-
-# Testing this class with code below
-bhs = BrokenHashServeEndpoints()
-# print(bhs.post_hash_endpoint('{"password":"\angrymonkey\"}'))
-print(bhs.get_base64_password("ghjb"))
-# print(bhs.get_stats())
-# print(bhs.shutdown())
 

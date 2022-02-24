@@ -85,13 +85,4 @@ class TestBrokenHashServeAPITests(unittest.TestCase):
 if __name__ == 'main':
     unittest.main()
 
-# to execute tests python3 -m unittest -v  tests.py
 
-# t = TestBrokenHashServeAPITests()
-# t.setUp()
-# t.test_post_hash_password()
-# # t.test_get_stats()
-# # t.test_shutdown()
-# t.test_get_base64_password()
-# t.test_post_hash_password_emptystring()
-# t.test_pos_hash_password_invalid_json()
